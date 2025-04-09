@@ -12,3 +12,6 @@ OVERPAY_THRESHOLD_BAD = os.getenv("OVERPAY_THRESHOLD_BAD") # ненормаль�
 # Пароль и логин от стима
 STEAM_LOGIN = os.getenv("STEAM_LOGIN") # логин стима
 STEAM_PASSWORD = os.getenv("STEAM_PASSWORD") # пароль стима
+
+# Базовый URL для площадки стим
+BASE_URL = os.getenv("BASE_URL")
